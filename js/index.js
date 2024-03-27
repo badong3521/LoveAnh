@@ -104,7 +104,6 @@
   canvas
     .click(function (e) {
       playMusic();
-      console.log("click");
       var offset = canvas.offset(),
         x,
         y;
@@ -174,7 +173,7 @@
 
       canvas
         .parent()
-        .css("background", "url(" + tree.toDataURL("image/png") + ")");
+        .css("background", "url(" + tree.toDataURL("../image/IMG_3396.png") + ")");
       canvas.css("background", "#ffe");
       $await(Jscex.Async.sleep(300));
       canvas.css("background", "none");

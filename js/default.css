@@ -99,3 +99,46 @@ a {
   font-weight: 900;
   color: #be1a25;
 }
+
+.container {
+  font-weight: 700;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  text-align: center;
+  height: 160px;
+  border-radius: 16px;
+  position: relative;
+}
+
+.item::before {
+  position: absolute;
+  content: "";
+  top: -2px;
+  bottom: -2px;
+  left: -2px;
+  right: -2px;
+  z-index: -1;
+  border-radius: 18px;
+}
+
+.name {
+  font-size: 48px;
+  margin: 0;
+}
+
+.image {
+  height: 250px;
+  width : 250px;
+  margin-bottom : 150px;
+  margin-left: 100px;
+}
