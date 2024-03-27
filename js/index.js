@@ -94,9 +94,17 @@
   var seed = tree.seed;
   var foot = tree.footer;
   var hold = 1;
+  function playMusic() {
+    var audio = document.getElementById("myAudio");
+    if (audio.paused) {
+      audio.play();
+    }
+  }
 
   canvas
     .click(function (e) {
+      playMusic();
+      console.log("click");
       var offset = canvas.offset(),
         x,
         y;
