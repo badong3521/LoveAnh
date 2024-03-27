@@ -3,9 +3,10 @@ body {
   padding: 0;
   background: #ffe;
   font-size: 14px;
-  font-family: "微软雅黑", "宋体", sans-serif;
   color: #231f20;
   overflow: auto;
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
 }
 a {
   color: #000;
@@ -79,7 +80,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
   margin-top: 20px;
 }
 
@@ -91,7 +91,11 @@ a {
   color: #000;
   margin: 0;
 }
+
 #countdown {
-  font-size: 40px;
-  color: #333;
+  position: absolute;
+  font-size: 20px;
+  margin: 30px 60px;
+  font-weight: 900;
+  color: #be1a25;
 }
