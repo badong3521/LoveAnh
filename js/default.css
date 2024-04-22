@@ -54,6 +54,7 @@ a {
   margin: 0 auto;
   width: 1100px;
   height: 680px;
+  display: none;
 }
 #error {
   margin: 0 auto;
