@@ -1,5 +1,6 @@
 (function () {
   var canvas = $("#canvas");
+  var heart = $(".heart");
 
   if (!canvas[0].getContext) {
     $("#error").show();
@@ -101,6 +102,10 @@
     }
   }
 
+  heart.click(function () {
+    playMusic();
+  });
+
   canvas
     .click(function (e) {
       playMusic();
@@ -173,7 +178,10 @@
 
       canvas
         .parent()
-        .css("background", "url(" + tree.toDataURL("../image/IMG_3396.png") + ")");
+        .css(
+          "background",
+          "url(" + tree.toDataURL("../image/IMG_3396.png") + ")"
+        );
       canvas.css("background", "#ffe");
       $await(Jscex.Async.sleep(300));
       canvas.css("background", "none");
