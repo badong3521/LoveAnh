@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #ffe;
+  background: #ffb7b2;
   font-size: 14px;
   color: #231f20;
   overflow: auto;
@@ -139,7 +139,7 @@ a {
 
 .image {
   height: 250px;
-  width : 250px;
-  margin-bottom : 150px;
+  width: 250px;
+  margin-bottom: 150px;
   margin-left: 100px;
 }
